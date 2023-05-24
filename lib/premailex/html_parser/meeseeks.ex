@@ -1,4 +1,4 @@
-if Code.ensure_compiled!(Meeseeks) do
+if Code.ensure_loaded?(Meeseeks) do
   defmodule Premailex.HTMLParser.Meeseeks do
     @moduledoc false
 

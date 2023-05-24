@@ -1,4 +1,4 @@
-if Code.ensure_compiled!(Floki) do
+if Code.ensure_loaded?(Floki) do
   defmodule Premailex.HTMLParser.Floki do
     @moduledoc false
     alias Premailex.HTMLParser
