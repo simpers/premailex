@@ -30,7 +30,7 @@ defmodule Premailex.Mixfile do
 
   defp deps do
     [
-      {:floki, "~> 0.19"},
+      {:floki, "~> 0.19", optional: true},
 
       {:meeseeks, "~> 0.11", optional: true},
       {:certifi, ">= 0.0.0", optional: true},
